@@ -46,5 +46,5 @@ default = simple
 forceSignAnnotated = true
 [user]
 name = Brendon Smith
-email = br3ndonland@protonmail.com
-signingkey = F09A320454D3711156BD308FAC66384CFA8C69B0
+email = bsmith@invicro.com
+signingkey = 87d3723c8e7a0564b750aa1154bc32fe62459475
