@@ -1,6 +1,7 @@
 #!/bin/zsh
 ### ------------------------------- Exports ------------------------------- ###
-export EDITOR="codium"
+export EDITOR="code"
+# export DOCKER_HOST=ssh://root@172.19.2.38
 export PATH="/usr/local/sbin:$PATH"
 export PATH="/usr/local/opt/ruby/bin:$PATH"
 export PATH="$HOME/.gem/ruby/2.6.0/bin:$PATH"
