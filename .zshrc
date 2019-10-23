@@ -1,12 +1,22 @@
 #!/bin/zsh
 ### ------------------------------- Exports ------------------------------- ###
-export EDITOR="codium"
+export EDITOR="code"
 export PATH="/usr/local/sbin:$PATH"
 export PATH="/usr/local/opt/ruby/bin:$PATH"
 export PATH="$HOME/.gem/ruby/2.6.0/bin:$PATH"
 export SSH_KEY_PATH="~/.ssh/id_rsa_${USER}"
 ### ------------------------------- Aliases ------------------------------- ###
 alias ssh-add=/usr/bin/ssh-add
+alias bashed='nano .bash_profile'
+alias c='clear'
+alias cd..='cd ..'
+alias cd...='cd ../..'
+alias cd....='cd ../../..'
+alias cd.....='cd ../../../..'
+alias dir='ls -lG'
+alias lsa='ls -a -lG'
+alias mv='mv -i'
+alias vm='ssh root@172.19.0.89' 
 ### ------------------------------- Prompt -------------------------------- ###
 # Pure prompt: https://github.com/sindresorhus/pure
 autoload -U promptinit
